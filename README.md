@@ -114,7 +114,7 @@ CC=clang CFLAGS="-O3 -march=native -ffast-math -fno-math-errno" make
 
 ## Results image
 
-Below is a bar chart generated from a sample run. Feel free to regenerate it on your own hardware.
+Below is a results printout from a sample run. Feel free to regenerate it on your own hardware.
 
 ![Benchmark results](results.png)
 
