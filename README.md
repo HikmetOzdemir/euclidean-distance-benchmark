@@ -34,6 +34,12 @@ Native build requirements (only if you want to include the C benchmark):
 > **Note**
 > On Windows the auto-builder is disabled. Compile `l2.c` into `l2.dll` manually (see the build commands in the source header) and place it next to `benchmark.py`.
 
+> **macOS note**
+> A universal (arm64 & x86_64) `libl2.dylib` is already included in the repository. If it loads successfully, **no compilation is required**—just run `python benchmark.py`. Pass `--rebuild` to force recompilation if desired.
+
+> **Linux note**
+> The macOS `.dylib` will not load on Linux; the script will transparently compile `libl2.so` on the first run provided a C compiler is available (use `--rebuild` to force a fresh build later).
+
 ## Quick start
 
 Create a fresh environment (highly recommended) and install NumPy:
