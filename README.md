@@ -112,7 +112,7 @@ Set environment variables `CC`, `CFLAGS` or `LDFLAGS` before building, for examp
 CC=clang CFLAGS="-O3 -march=native -ffast-math -fno-math-errno" make
 ```
 
-## Results image
+## Results  
 
 Below is a results printout from a sample run. Feel free to regenerate it on your own hardware.
 
