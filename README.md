@@ -125,7 +125,3 @@ Below is a results printout from a sample run. Feel free to regenerate it on you
 ![Benchmark results](results.png)
 
 ---
-
-## License
-
-This project is released under the MIT License – see the source files for details.
